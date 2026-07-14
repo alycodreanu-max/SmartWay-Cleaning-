@@ -1,0 +1,1 @@
+const WA="447745551636";function sendForm(f){const d=new FormData(f),a=["Hello Smart Way Cleaning, I would like a quote."];for(const [k,v] of d.entries())if(String(v).trim())a.push(k+": "+v);open("https://wa.me/"+WA+"?text="+encodeURIComponent(a.join("\n")),"_blank");return false}
